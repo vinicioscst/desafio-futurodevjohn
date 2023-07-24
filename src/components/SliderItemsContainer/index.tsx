@@ -1,4 +1,4 @@
-import { SliderItem } from "../SliderItem";
+import { SliderItem } from '../SliderItem';
 
 export function SliderItemsContainer(){
     return(

@@ -9,7 +9,7 @@ export function Contact(){
             <p className='font-montserrat text-lg md:text-2xl text-center lg:text-left pb-4'>Matricule-se agora mesmo! Fale com um de nossos atendentes</p>
             <ContactForm />
             </div>
-            <img src={GymFemale} alt='' className='xl:absolute bottom-0 right-0'/>
+            <img src={GymFemale} alt='Mulher se exercitando' className='xl:absolute bottom-0 right-0'/>
         </div>
     )
 }

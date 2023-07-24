@@ -1,11 +1,11 @@
-import GymCouple from "../../assets/gym-couple.svg";
-import { OurFamilyCard } from "../OurFamilyCard";
+import GymCouple from '../../assets/gym-couple.svg';
+import { OurFamilyCard } from '../OurFamilyCard';
 
 export function OurFamily() {
   return (
-    <div className="flex flex-col-reverse xl:flex-row items-center justify-between gap-12 md:gap-8 w-full mx-auto pt-20">
-      <img src={GymCouple} alt='' className='bg-left-bottom'/>
-      <div className="flex flex-col gap-16">
+    <div className='flex flex-col-reverse xl:flex-row items-center justify-between gap-12 md:gap-8 w-full mx-auto pt-20'>
+      <img src={GymCouple} alt='Casal se exercitando' className='bg-left-bottom'/>
+      <div className='flex flex-col gap-16'>
         <div className='flex flex-col gap-5'>
           <h2 className='font-bungee text-5xl md:text-[3.875rem] text-center xl:text-left'>Faça parte <span className='font-bebasNeue text-6xl md:text-[5.125rem]'>da família</span>
           </h2>

@@ -1,4 +1,4 @@
-import { DifferentialsCard } from "../DifferentialsCard";
+import { DifferentialsCard } from '../DifferentialsCard';
 import DifferentialIcon1 from '../../assets/differential-icon-1.svg'
 import DifferentialIcon2 from '../../assets/differential-icon-2.svg'
 import DifferentialIcon3 from '../../assets/differential-icon-3.svg'

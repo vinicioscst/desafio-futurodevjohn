@@ -1,4 +1,4 @@
-import { toggleButtonMessage } from "../DifferentialsCard";
+import { toggleButtonMessage } from '../DifferentialsCard';
 
 interface IPlansCardProps {
     img: string;

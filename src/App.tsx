@@ -7,7 +7,7 @@ import { OurFamily } from './components/OurFamily'
 import { Plans } from './components/Plans'
 import { TextSlider } from './components/TextSlider'
 import { ToastContainer } from 'react-toastify';
-import "../node_modules/react-toastify/dist/ReactToastify.css";
+import '../node_modules/react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
