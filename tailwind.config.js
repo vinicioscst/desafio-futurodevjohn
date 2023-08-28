@@ -13,8 +13,8 @@ module.exports = {
         'montserrat': ['Montserrat, sans-serif'],
       },
       backgroundImage: {
-        "header-bg": "url('./src/assets/header-bg.svg')",
-        "gym-bg": "url('./src/assets/bg-gym.svg')"
+        "header-bg": "url('/src/assets/header-bg.svg')",
+        "gym-bg": "url('/src/assets/bg-gym.svg')"
       },
       colors: {
         'eerie-gray': '#222222',
