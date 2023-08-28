@@ -12,7 +12,7 @@ import '../node_modules/react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <>
-      <div className='w-full h-max bg-cover bg-right-top bg-no-repeat md:bg-[url("/header-bg.svg")]'>
+      <div className='w-full h-max bg-cover bg-right-top bg-no-repeat md:bg-header-bg'>
         <div>
           <Container>
             <Header/>
@@ -41,7 +41,7 @@ function App() {
           </Container>
         </section>
 
-        <section className='w-full h-max bg-cover bg-left-top bg-no-repeat md:bg-[url("/bg-gym.svg")]'>
+        <section className='w-full h-max bg-cover bg-left-top bg-no-repeat md:bg-gym-bg'>
           <Container>
             <OurFamily />
           </Container>

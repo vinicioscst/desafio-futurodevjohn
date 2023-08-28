@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -13,7 +13,8 @@ module.exports = {
         'montserrat': ['Montserrat, sans-serif'],
       },
       backgroundImage: {
-        'header-bg': 'url("/header-bg.svg")',
+        "header-bg": "url('./src/assets/header-bg.svg')",
+        "gym-bg": "url('./src/assets/bg-gym.svg')"
       },
       colors: {
         'eerie-gray': '#222222',
